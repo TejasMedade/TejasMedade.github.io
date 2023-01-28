@@ -2,9 +2,13 @@ Welcome to my professional portfolio website - your one-stop destination to disc
 
 Built using cutting-edge technologies such as HTML, CSS, and JavaScript, this website is designed to be visually stunning and incredibly user-friendly, providing a seamless browsing experience on any device.
 
-Get to know me better on the "About" page, where you'll find a summary of my background, experience, and key strengths. The "Skills" section is where you'll discover my technical expertise, including programming languages, frameworks, and tools that I'm proficient in.
+Get to know me better on the "About" page, where you'll find a summary of my background, experience, and key strengths. 
 
-But the real showcase of my abilities is on the "Projects" page - where you'll find a curated collection of my most recent and notable projects, complete with screenshots and descriptions. From responsive web apps to interactive data visualizations, I've got a diverse range of experience, and I'm excited to share it with you.
+The "Skills" section is where you'll discover my technical expertise, including programming languages, frameworks, and tools that I'm proficient in.
+
+But the real showcase of my abilities is on the "Projects" page - where you'll find a curated collection of my most recent and notable projects, complete with screenshots and descriptions.
+
+From responsive web apps to interactive data visualizations, I've got a diverse range of experience, and I'm excited to share it with you.
 
 Don't just take my word for it, you can download my resume from the "Resume" section, and check out my professional and educational timeline in the "Timeline" section. Connect with me on social media through the links provided, and stay updated on my latest work and projects.
 
