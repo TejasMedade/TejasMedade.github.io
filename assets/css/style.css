@@ -427,7 +427,7 @@ section {
 # Akills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 70px;
+  height: 120px;
   display: block;
   background: none;
   border-radius: 0;
@@ -468,6 +468,7 @@ section {
 .progress-bar-wrap p {
   font-size: 14px;
   font-weight: 550;
+  color: #050d18;
 }
 
 /*--------------------------------------------------------------
