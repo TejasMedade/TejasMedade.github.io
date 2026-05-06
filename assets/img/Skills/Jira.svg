@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="jiraGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2684FF"/>
+      <stop offset="100%" style="stop-color:#0052CC"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="16" fill="url(#jiraGrad)"/>
+  <g fill="#fff">
+    <path d="M96 60L68 32 64 28 40.7 51.3l-8.7 8.7 23.3 23.3L64 92l8.7-8.7.1-.1L96 60zM64 73.5L54.5 64 64 54.5 73.5 64 64 73.5z"/>
+  </g>
+</svg>

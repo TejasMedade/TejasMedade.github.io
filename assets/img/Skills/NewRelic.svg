@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <rect width="128" height="128" rx="16" fill="#1D252C"/>
+  <defs>
+    <linearGradient id="nrGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1CE783"/>
+      <stop offset="100%" style="stop-color:#00AC69"/>
+    </linearGradient>
+  </defs>
+  <polygon points="64,16 108,40 108,88 64,112 20,88 20,40" fill="url(#nrGrad)"/>
+  <polygon points="64,28 96,46 96,82 64,100 32,82 32,46" fill="#1D252C"/>
+  <polygon points="64,40 84,52 84,76 64,88 44,76 44,52" fill="url(#nrGrad)"/>
+  <polygon points="64,50 74,56 74,68 64,74 54,68 54,56" fill="#1D252C"/>
+  <polygon points="64,56 68,58 68,66 64,68 60,66 60,58" fill="url(#nrGrad)"/>
+</svg>

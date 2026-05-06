@@ -789,10 +789,16 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 54px;
-  height: 54px;
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
   transition: 0.5s;
+}
+
+.services .icon img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
 }
 
 .services .icon i {
@@ -802,8 +808,8 @@ section {
 }
 
 .rdbms {
-  height: 90px;
-  width: 90px;
+  height: 100px;
+  width: 100px;
 }
 
 .services .title {
@@ -1188,4 +1194,189 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+/*--------------------------------------------------------------
+# Enhanced Visual Styles
+--------------------------------------------------------------*/
+
+/* Improved section titles */
+.section-title h2 {
+  font-size: 34px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.section-title h2::after {
+  width: 60px;
+  height: 4px;
+  background: linear-gradient(135deg, #149ddd, #0d6efd);
+  border-radius: 2px;
+}
+
+/* About section improvements */
+.about .content h3 {
+  font-weight: 700;
+  font-size: 28px;
+  color: #173b6c;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.about .content h3::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 3px;
+  background: #149ddd;
+  border-radius: 2px;
+}
+
+/* Better progress bars */
+.skills .progress-bar-wrap {
+  background: #e8f0fe;
+  height: 8px;
+  border-radius: 4px;
+}
+
+.skills .progress-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #149ddd, #0d6efd);
+  overflow: hidden;
+}
+
+/* Resume timeline improvements */
+.resume .resume-item {
+  border-left: 3px solid #149ddd;
+  padding: 0 0 20px 25px;
+}
+
+.resume .resume-item::before {
+  width: 14px;
+  height: 14px;
+  border: 3px solid #149ddd;
+  left: -9px;
+  background: #fff;
+  box-shadow: 0 0 0 4px rgba(20, 157, 221, 0.15);
+}
+
+.resume .resume-item h5 {
+  background: linear-gradient(135deg, #e4edf9, #dff3fc);
+  border-radius: 4px;
+  font-weight: 600;
+  color: #173b6c;
+}
+
+/* Portfolio cards */
+.portfolio .portfolio-wrap {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.portfolio .portfolio-wrap:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  transform: translateY(-4px);
+}
+
+/* Download button styling */
+.downloadbutton .btn {
+  border-radius: 6px;
+  padding: 12px 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  background: transparent;
+  color: #173b6c;
+  border: 2px solid #173b6c !important;
+}
+
+.downloadbutton .btn:hover {
+  background: #173b6c;
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(23, 59, 108, 0.3);
+}
+
+/* Hero section overlay improvement */
+#hero:before {
+  background: rgba(5, 13, 24, 0.5);
+}
+
+#hero h1 {
+  font-size: 60px;
+  font-weight: 800;
+  letter-spacing: -1px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+#hero p span {
+  border-bottom: 3px solid #149ddd;
+  padding-bottom: 2px;
+}
+
+/* Contact form improvements */
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 6px;
+  border: 1px solid #e0e0e0;
+  transition: border-color 0.3s;
+}
+
+.contact .php-email-form input:focus,
+.contact .php-email-form textarea:focus {
+  border-color: #149ddd;
+  box-shadow: 0 0 0 3px rgba(20, 157, 221, 0.1);
+}
+
+.contact .php-email-form button[type="submit"] {
+  border-radius: 6px;
+  padding: 12px 32px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background: linear-gradient(135deg, #149ddd, #0d6efd);
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(20, 157, 221, 0.4);
+}
+
+/* Info cards in contact */
+.contact .info {
+  border-radius: 8px;
+  border: 1px solid #e8f0fe;
+}
+
+/* Social links hover */
+#header .profile .social-links a:hover {
+  background: linear-gradient(135deg, #149ddd, #0d6efd);
+  transform: translateY(-2px);
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Skills icon section */
+.services .icon-box {
+  transition: all 0.3s ease;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Back to top button */
+.back-to-top {
+  background: linear-gradient(135deg, #149ddd, #0d6efd);
+}
+
+.back-to-top:hover {
+  background: linear-gradient(135deg, #0d6efd, #149ddd);
+  transform: translateY(-3px);
 }
